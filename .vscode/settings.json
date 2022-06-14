@@ -1,0 +1,7 @@
+{
+  "angular.enable-strict-mode-prompt": false,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontSize": 18
+}
