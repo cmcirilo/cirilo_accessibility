@@ -54,7 +54,7 @@ export class YesNoButtonGroupComponent implements OnInit, ControlValueAccessor {
     throw new Error('Method not implemented.');
   }
 
-  public activate(value: string) {
+  public activate(value: string): void {
     this.writeValue(value);
   }
 }
