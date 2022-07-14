@@ -1,6 +1,6 @@
-# Cirilo Accessibility
+# Cirilo Accessibility Component
 
-Developed in Angular 11
+Developed in Angular 10
 
 ## Getting Started
 
