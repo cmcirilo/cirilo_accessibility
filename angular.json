@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cirilo_accessibility": {
+    "cirilo_accessibility_component": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cirilo_accessibility",
+            "outputPath": "dist/cirilo_accessibility_component",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "cirilo_accessibility:build"
+            "browserTarget": "cirilo_accessibility_component:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "cirilo_accessibility:build:production"
+              "browserTarget": "cirilo_accessibility_component:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "cirilo_accessibility:build"
+            "browserTarget": "cirilo_accessibility_component:build"
           }
         },
         "test": {
@@ -102,16 +102,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "cirilo_accessibility:serve"
+            "devServerTarget": "cirilo_accessibility_component:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "cirilo_accessibility:serve:production"
+              "devServerTarget": "cirilo_accessibility_component:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "cirilo_accessibility"
+  "defaultProject": "cirilo_accessibility_component"
 }

@@ -7,7 +7,7 @@ Developed in Angular 11
 Clone the repository:
 
 ```sh
-git clone https://github.com/cmcirilo/cirilo_accessibility.git
+git clone https://github.com/cmcirilo/cirilo_accessibility_component.git
 ```
 
 ## Help

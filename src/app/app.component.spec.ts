@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'cirilo_accessibility'`, () => {
+  it(`should have as title 'cirilo_accessibility_component'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('cirilo_accessibility');
+    expect(app.title).toEqual('cirilo_accessibility_component');
   });
 
   it('should render title', () => {
@@ -25,7 +25,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain(
-      'cirilo_accessibility app is running!'
+      'cirilo_accessibility_component app is running!'
     );
   });
 });

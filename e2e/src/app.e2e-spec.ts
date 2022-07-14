@@ -10,7 +10,9 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('cirilo_accessibility app is running!');
+    expect(page.getTitleText()).toEqual(
+      'cirilo_accessibility_component app is running!'
+    );
   });
 
   afterEach(async () => {
